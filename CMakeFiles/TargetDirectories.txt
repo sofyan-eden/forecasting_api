@@ -1,3 +1,0 @@
-/forcasting-api/forecasting_api/CMakeFiles/server.dir
-/forcasting-api/forecasting_api/CMakeFiles/edit_cache.dir
-/forcasting-api/forecasting_api/CMakeFiles/rebuild_cache.dir
