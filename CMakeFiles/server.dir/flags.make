@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /mnt/storage/eden/forecasting/libtorch/include -isystem /mnt/storage/eden/forecasting/libtorch/include/torch/csrc/api/include
+CXX_INCLUDES = -isystem /forcasting-api/forecasting_api/libtorch/include -isystem /forcasting-api/forecasting_api/libtorch/include/torch/csrc/api/include
 
 CXX_FLAGS = -D_GLIBCXX_USE_CXX11_ABI=1
 

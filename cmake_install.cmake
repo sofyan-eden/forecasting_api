@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/storage/eden/forecasting
+# Install script for directory: /forcasting-api/forecasting_api
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/storage/eden/forecasting/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/forcasting-api/forecasting_api/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

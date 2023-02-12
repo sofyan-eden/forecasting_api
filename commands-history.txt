@@ -1,0 +1,52 @@
+    1  ls
+    2  cd forcasting-api/
+    3  ls
+    4  cd forecasting_api/
+    5  ls
+    6  cmake
+    7  apt-get update && apt-get install -y --no-install-recommends   build-essential   cmake   ca-certificates   curl   wget  git   libcurl4-openssl-dev   libgflags-dev \
+    8  cmake
+    9  cmake .
+   10  cmake build .
+   11  wget https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.8.1%2Bcpu.zip&& unzip libtorch-cxx11-abi-shared-with-deps-1.8.1+cpu.zip
+   12  apt-get install unzip
+   13  unzip libtorch-cxx11-abi-shared-with-deps-1.8.1+cpu.zip
+   14  cmake build .
+   15  apt-get install pkg-config
+   16  cmake build .
+   17  add-apt-repository ppa:kip/pistache
+   18  apt-get install add-apt-repository
+   19  apt-get install software-properties-common
+   20  apt-get update
+   21  add-apt-repository ppa:kip/pistache
+   22  add-apt-repository ppa:pistache+team/stable
+   23  apt-get update
+   24  apt-get install libpistache-dev
+   25  cd ..
+   26  apt-get install libpistache-dev
+   27  apt install libpistache-dev
+   28  apt-get install libcpprest-dev
+   29  ./server
+   30  cd forcasting-api/
+   31  cd forecasting_api/
+   32  ./server
+   33  find YOUR_HOME_PATH -name "*libc10.so*"
+   34  find /home -name "*libc10.so*"
+   35  find . -name "*libc10.so*"
+   36  ls
+   37  cmake build .
+   38  apt install libpistache-dev
+   39  apt-get upgrade
+   40  apt-get install libpistache-dev
+   41  lsb_release -a
+   42  add-apt-repository ppa:pistache+team/unstable
+   43  apt-get upgrade
+   44  apt-get update
+   45  apt-get install libpistache-dev
+   46  cmake build .
+   47  make
+   48  ./server
+   49  history
+   50  ./server
+   51  history -> commands-history.txt
+   52  history > commands-history.txt

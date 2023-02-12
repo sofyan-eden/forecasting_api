@@ -82,14 +82,13 @@ void getForecastingData(const Rest::Request &req, Http::ResponseWriter resp)
                          req.param(":text").as<std::string>()
                                            :       // if so set as text value
                          "No parameter supplied."; // otherwise return warning
-  std::cout<<text;
+
   std::vector<float> points = splitPoints(text);
   for (float point : points)
   {
     std::cout << point << std::endl;
   }
   float point = getPointFromModel(points);
-  std::cout<<point;
   resp.send(Http::Code::Ok, std::to_string(point)); // return a response from our server
 }
 
@@ -105,9 +104,8 @@ int main(int argc, char *argv[])
   endpoint->init(opts);
 
   /* routes! */
-  std::cout<<"start listening";
   Routes::Get(router, "/forecasting/:text", Routes::bind(&getForecastingData));
+
   endpoint->setHandler(router.handler());
   endpoint->serve();
-  return 0;
 }
