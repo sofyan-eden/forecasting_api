@@ -57,7 +57,10 @@ float getPointFromModel(std::vector<float> points)
   // std::cout<<"tensor shape" << unsqueezed_tensor.sizes();
   at::Tensor output = module.forward(inputs_values).toTensor();
   float res_arr[1] = {output[0][0].item<float>()};
-  return res_arr[0];
+  int length = points.size();
+  float lastPoint = res_arr[0];
+  if(length > 1) lastPoint = (res_arr[0] * 3) - (points[length - 1] + points[length - 2]);
+  return lastPoint;
 }
 
 std::vector<float> splitPoints(std::string pointsString)
